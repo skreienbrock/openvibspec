@@ -18,8 +18,6 @@ You should be aware, that this image is quite big. (>7G)
 
 ## LINUX: running openvibspec/anaconda3
 
-openvibspec/anaconda3 is a python 3.8 environment built for ..
-
 To run openvibspec/anaconda3 with docker invoke the following command:
 
     docker run -it -v <your-notebook-folder>:/opt/notebooks -p 8888:8888 openvibspec/anaconda3
